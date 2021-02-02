@@ -1,0 +1,1 @@
+const consola = console.log("Yo vengo de un archivo de afuera");
