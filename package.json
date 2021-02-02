@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-builder",
+  "version": "1.0.0",
+  "description": "this is a builder based in tailwind css",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify main.js -o bundle.js"
+  },
+  "author": "caustic code",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "dragula": "^3.7.2",
+    "js-file-download": "^0.4.12"
+  }
+}
